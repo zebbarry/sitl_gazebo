@@ -9,9 +9,12 @@
     <include>
       <uri>model://ground_plane</uri>
     </include>
-    <include>
-      <uri>model://asphalt_plane</uri>
-    </include>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>-43.52063</latitude_deg>
+      <longitude_deg>172.58324</longitude_deg>
+      <elevation>0.0</elevation>
+    </spherical_coordinates>
     <physics name='default_physics' default='0' type='ode'>
       <gravity>0 0 -9.8066</gravity>
       <ode>
